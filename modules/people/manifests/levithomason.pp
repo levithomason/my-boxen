@@ -9,9 +9,15 @@ class people::levithomason {
   include chrome
   include chrome::canary
   include spectacle
-  include repository
+
+  # non project repos
+  repository {
+    '/Users/levithomason/.dotfiles':
+      ensure    =>  'origin/HEAD',
+      source    =>  'levithomason/dotfiles.git',
+      provider  =>  'git';
+  }
 
   # OSX defaults
   osx::recovery_message { 'If this Mac is found, please call 208-699-4042': }
-  
 }
