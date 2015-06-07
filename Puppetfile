@@ -60,10 +60,17 @@ github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-# github "elasticsearch", "2.7.2"
-# github "mysql",         "2.0.1"
-# github "postgresql",  "3.0.3"
-# github "redis",       "3.1.0"
-# github "sysctl",      "1.0.1"
+# github "elasticsearch",   "2.7.2"
+# github "mysql",           "2.0.1"
+# github "postgresql",      "3.0.3"
+# github "redis",           "3.1.0"
+# github "sysctl",          "1.0.1"
 
-github "webstorm",      "1.1.1"
+github "webstorm",          "1.1.1"
+github "quicksilver",       "1.3.0"
+github "osx",               "2.8.0"
+github "java",              "1.8.3"
+github "dropbox",           "1.4.1"
+github "onepassword",       "1.1.5"
+github "chrome",            "1.2.0"
+github "spactacle"          "1.0.0"
