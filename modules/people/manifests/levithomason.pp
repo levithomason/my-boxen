@@ -9,6 +9,7 @@ class people::levithomason {
   include chrome
   include chrome::canary
   include spectacle
+  include repository
 
   # OSX defaults
   osx::recovery_message { 'If this Mac is found, please call 208-699-4042': }
